@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "AzureKeyVault",
 		"typeProperties": {
-			"baseUrl": "https://GlobPoC-key-value.vault.azure.net/"
+			"baseUrl": "https://globpoc-key-value.vault.azure.net/"
 		}
 	}
 }
