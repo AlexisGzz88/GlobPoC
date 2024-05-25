@@ -1,0 +1,10 @@
+{
+	"name": "ls_storage_azv",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://GlobPoC-key-value.vault.azure.net/"
+		}
+	}
+}
