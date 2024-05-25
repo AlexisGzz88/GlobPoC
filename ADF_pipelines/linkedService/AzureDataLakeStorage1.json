@@ -1,0 +1,19 @@
+{
+	"name": "AzureDataLakeStorage1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://portfolioagdl.dfs.core.windows.net/",
+			"accountKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ls_storage_azv",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "GlobPoC-adls-key-vault",
+				"secretVersion": "3161d6de354445f58a1de28b3721b0df"
+			}
+		}
+	}
+}
